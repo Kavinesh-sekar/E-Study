@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:  #e0f8e0;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0aad0a;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+}
+.nav-links li {
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.myCourse{
+    background-color: #0aad0a;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px; 
+    padding: 10px 15px;   
+    
+    /* padding: 15px; */
+
+    /* border-radius: 10px; */
+}
+.cards button {
+    margin: 0;                 /* Ensure no unwanted margin */
+}
