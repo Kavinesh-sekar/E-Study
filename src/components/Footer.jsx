@@ -6,6 +6,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import Courses from './Courses';
 import '../styles/Footer.css';
 import CallIcon from '@mui/icons-material/Call';
+import EmailIcon from '@mui/icons-material/Email';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 
 function Footer() {
@@ -31,37 +33,60 @@ function Footer() {
           </div>
           <div className='resources'>
             <h3>Resources</h3>
-            <ul>
-              <li>Home</li>
-              <li>Courses</li>
-              <li>Our Blogs</li>
-              <li>Terms & Condition</li>
+          
+              <p>Home</p>
+              <p>Courses</p>
+              <p>Our Blogs</p>
+              <p>Terms & Condition</p>
+             
 
-            </ul>
+          
 
           </div>
 
           <div className='foot-contact'>
           <h3>Contact</h3>
+          <div>
             <span><CallIcon /></span>
             <p>+04484548844</p>
+            </div>
+            <div>
             <span> <CallIcon /></span>
             <p>+04484548844</p>
-            <span></span>
+            </div>
+            <div>
+            <span> <EmailIcon /></span>
             <p>Infothemeuser.com</p>
-            <span></span>
+            </div>
+            <div>
+            <span> <LocationOnIcon /></span>
             <p>123, New Lenox, Chicago</p>
+            </div>
 
           </div>
 
           <div className='coach'>
             <h3>Become an Instructor</h3>
             <p>We Only work with the best companies around the globe</p>
-            <input type='text'></input>
-            <button >Register now</button>
+            <input type='text' placeholder='Enter Your Email' className='search-input-foot'></input>
+            <button className='email-send'>Register now</button>
 
           </div>
 
+        </div>
+
+        <div className='bottom'>
+          <div className='copyright'>
+            <p> © 2023 All rights Terms of user and Privacy and Policy</p> 
+
+          </div>
+          <div className='privacy'>
+            <p>Privacy |</p>
+            <p>Terms | </p>
+            <p>SiteMap |</p>
+            <p>Purchase </p>
+          </div>
+          
         </div>
 
 

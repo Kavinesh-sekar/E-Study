@@ -5,13 +5,18 @@
     align-items: center;
     /* text-align: center; */
     background-color: aliceblue;
-    padding-top: 100px;
+    /* padding: ; */
+    /* text-align: center; */
+    align-content: center;
+    padding: 50px 100px;
+    /* padding-top: 100px; */
 
 }
 .follow{
     /* display: flex; */
     width: 250px;
-    margin-left: 200px;
+    /* padding: 200px 200px; */
+    /* margin-left: 200px ; */
     /* border-radius: 20px solid red; */
 }
 
@@ -28,7 +33,87 @@
 .foot-social span{
    display: flex;
   gap: 15px;
+  color: gray;
 }
 .resources{
-    width: 250px;
+    width: 200px;
+
 }
+.resources h3{
+    font-size: 22px;
+
+}
+.resources p{
+    color: gray ;
+
+}
+.foot-contact{
+width: 200px;
+}
+.foot-contact h3 {
+    font-size: 22px;
+    /* color: #333; */
+    /* margin-bottom: 15px; */
+    /* text-align: center; */
+  }
+  .foot-contact div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .foot-contact span{
+    margin-right: 10px;
+    vertical-align: middle;
+    color: gray;
+  }
+  .foot-contact p {
+    font-size: 16px;
+    color: gray;
+    margin: 5px 0;
+  }
+ 
+  .coach{
+    width: 300px;
+  }
+  .coach h3{
+    color: #0aad0a;
+    font-size: 22px;
+
+  }
+
+.coach p {
+    color: gray;
+}
+.email-send {
+    padding: 8px 15px;
+    background-color: #0aad0a;
+    color: #fff;
+    border: none;
+    /* border-radius: 50px; */
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .search-input-foot{
+    /* flex: 1; */
+    padding: 10px 10px;
+    /* border-radius: 50px; */
+    font-size: 12px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+  }
+
+  .bottom{
+    /* height: 40px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: center;
+    align-content: center;
+    padding: 2px 100px;
+    color: gray;
+  }
+  .privacy{
+    display: flex;
+  }
