@@ -1,0 +1,199 @@
+
+  
+  .inst-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    /* margin: 30px 20px; */
+    margin: 20px 0;
+  }
+  
+  /* .inst-cards {
+
+    border: 1px solid #e0e0e0;
+   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; 
+
+    
+   
+  } */
+  /* .inst-cards {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+  } */
+
+  .inst-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+  }
+ 
+  .img-card {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    padding: 15px;
+    gap: 10px; 
+    align-items: center;
+    /* background-color: #fff; */
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* overflow: hidden; */
+    /* width: 300px;  */
+    /* border: 1px solid #ddd; */
+  }
+
+
+.ins-img {
+  width: 100%;
+  /* height: 220px; */
+  object-fit: cover;
+  border-radius: 10px 0 0 10px; 
+}
+
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+ padding: 20px 10px; 
+  /* height: 100%;  */
+  /* background-color: #f9f9f9; */
+}
+.ins-details {
+  padding: 0px 20px;
+}
+
+
+.ins-details .sub {
+  color: #777;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+.ins-details p {
+  margin: 5px 0;
+  font-size: 20 px;
+  color: #555;
+}
+
+
+
+hr.horizontal-border {
+  width: 50px;
+  height: 1px;
+  border: none;
+  background-color: #0aad0a;
+  margin:  0;
+}
+.courseEnro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  color: #777;
+}
+
+.courseEnro span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+.inst-container :hover{
+  background-color: #0aad0a;
+} 
+
+.ins-details :hover{
+    color: white;
+}
+.courseEnro :hover{
+  color: white;
+}
+
+.ins-head {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.ins-head h2{
+  font-size: 30px; 
+  font-weight: bold;
+}
+
+.card-content{
+  display: flex;
+  gap: 20px;
+  width: 450px;
+  /* height: 180px; */
+  background-color: #e0f8e0; 
+  border-radius: 20px ;
+  /* padding: 20px; */
+  /* width: 200px; */
+
+}
+.story-card{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0px 90px; */
+  /* text-align: center; */
+  /* width: 200px; */
+}
+.std-img{
+  margin: 10px;
+  height: 130px;
+}
+.stories-conten{
+  padding-top: 70px ;
+
+  margin-left: 200px;
+  /* text-align: center; */
+}
+.stories-conten h3{
+  font-weight:bold;
+  font-size: 30px;
+}
+.stories-conten{
+  line-height: 1px;
+}
+.stories-conten h3 span{
+ color: #0aad0a;
+}
+.stories-conten p{
+  font-size: 20px;
+}
+.std-right h3{
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1px;
+}
+.changecolor{
+  color: #555;;
+}
+.content{
+  list-style: 2px;
+}

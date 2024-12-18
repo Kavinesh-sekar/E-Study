@@ -1,0 +1,34 @@
+.totalFoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    background-color: aliceblue;
+    padding-top: 100px;
+
+}
+.follow{
+    /* display: flex; */
+    width: 250px;
+    margin-left: 200px;
+    /* border-radius: 20px solid red; */
+}
+
+.follow h2{
+    color: #0aad0a ;
+}
+
+.follow p{
+    color: gray ;
+}
+.foot-social p{
+    font-size: 17px;
+}
+.foot-social span{
+   display: flex;
+  gap: 15px;
+}
+.resources{
+    width: 250px;
+}
