@@ -3,6 +3,9 @@ import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import Features from '../components/Features';
 import Courses from '../components/Courses';
+import Counts from '../components/Counts';
+import BestCourses from '../components/BestCourses';
+// import Count
 
 function Home() {
   return (
@@ -11,6 +14,8 @@ function Home() {
     <HeroSection />
     <Features />
     <Courses />
+    <Counts />
+    <BestCourses />
 
     </>
     
