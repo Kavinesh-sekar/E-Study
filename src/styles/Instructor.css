@@ -197,3 +197,7 @@ hr.horizontal-border {
 .content{
   list-style: 2px;
 }
+.social :hover{
+  cursor: pointer;
+  color: white;
+}
