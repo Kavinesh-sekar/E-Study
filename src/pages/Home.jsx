@@ -12,15 +12,32 @@ import Fqa from '../components/Fqa';
 function Home() {
   return (
     <>
+    
     <Header />
+    <div id="hero">
     <HeroSection />
+    </div>
+    <div id="features">
     <Features />
+    </div>
+    <div id="courses">
     <Courses />
+    </div>
+    <div id="courses">
     <Counts />
+    </div>
+    <div id = 'best'>
     <BestCourses />
+    </div>
+    <div id="instructors">
     <Instructors />
+    </div>
+    <div id="fqa">
     <Fqa />
+    </div>
+    <div id="footer">
     <Footer />
+    </div>
    
 
     </>
