@@ -7,6 +7,7 @@ import Counts from '../components/Counts';
 import BestCourses from '../components/BestCourses';
 import Instructors from '../components/Instructors';
 import Footer from '../components/Footer';
+import Fqa from '../components/Fqa';
 
 function Home() {
   return (
@@ -18,7 +19,9 @@ function Home() {
     <Counts />
     <BestCourses />
     <Instructors />
+    <Fqa />
     <Footer />
+   
 
     </>
     

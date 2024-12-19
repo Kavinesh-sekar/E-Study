@@ -74,6 +74,7 @@ function Footer() {
           </div>
 
         </div>
+        <hr className='hr-line'/>
 
         <div className='bottom'>
           <div className='copyright'>

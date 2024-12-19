@@ -111,9 +111,13 @@ width: 200px;
     /* align-items: center; */
     text-align: center;
     align-content: center;
-    padding: 2px 100px;
+    padding: 0px 100px;
     color: gray;
   }
   .privacy{
     display: flex;
+  }
+  .hr-line{
+    opacity: 2px;
+    color: gray;
   }
